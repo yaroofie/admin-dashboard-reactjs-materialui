@@ -1,4 +1,6 @@
+import { Box } from "@mui/material";
 import React, { useEffect } from 'react';
+import Header from "../3-Organisms/Header";
 
 export default function Line ()
 {
@@ -8,6 +10,8 @@ export default function Line ()
    }, [] );
 
    return (
-      <div>Line</div>
+      <Box m="20px">
+         <Header title="Line Chart" subtitle="Simple Line Chart" />
+      </Box>
    );
 }
