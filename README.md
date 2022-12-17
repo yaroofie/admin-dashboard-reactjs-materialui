@@ -1,3 +1,3 @@
-# movieland with reactjs
+# addmin dashboard with reactjs and materialui
 
-![preview image](https://github.com/yaroofie/simple-movie-app-react/raw/master/public/reactjs_movieland.png)
+![preview image](https://github.com/yaroofie/admin-dashboard-reactjs-materialui/raw/master/preview.png)
