@@ -1,12 +1,12 @@
 import React from 'react'
 import Sidebar from "../3-Organisms/Sidebar";
-import Header from "../3-Organisms/Header";
+import Topbar from "../3-Organisms/Topbar";
 export default function PanelTemplate(props) {
   return (
     <div className="app">
       <Sidebar />
       <main className="content">
-        <Header />
+        <Topbar />
         {props.children}
       </main>
     </div>
