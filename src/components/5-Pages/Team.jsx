@@ -1,4 +1,6 @@
+import { Box } from '@mui/material';
 import React, { useEffect } from 'react';
+import Header from "../3-Organisms/Header"
 
 export default function Team ()
 {
@@ -8,6 +10,10 @@ export default function Team ()
    }, [] );
 
    return (
-      <div>Team</div>
+      <Box m="20px">
+         <Box display="flex" justifyContent="space-between" alignItems="center">
+            <Header title="TEAM" subtitle="Managing the team members" />
+         </Box>
+      </Box>
    );
 }
