@@ -2,11 +2,10 @@ import React, { useEffect } from 'react';
 
 export default function Team ()
 {
-   const page = {
-      title: "reactjs Team"
-   };
-
-   useEffect( () => { document.title = page.title; }, [] );
+   useEffect( () =>
+   {
+      document.title = "Team Page";
+   }, [] );
 
    return (
       <div>Team</div>

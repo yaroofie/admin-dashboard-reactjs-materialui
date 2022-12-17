@@ -2,11 +2,7 @@ import React, { useEffect } from 'react';
 
 export default function Dashboard ()
 {
-   const page = {
-      title: "reactjs dashboard"
-   };
-
-   useEffect( () => { document.title = page.title; }, [] );
+   useEffect( () => { document.title = "Dashboard Page"; }, [] );
 
    return (
       <div>Dashboard</div>

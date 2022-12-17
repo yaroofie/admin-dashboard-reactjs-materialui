@@ -2,11 +2,7 @@ import React, { useEffect } from 'react';
 
 export default function Calendar ()
 {
-   const page = {
-      title: "reactjs Calendar"
-   };
-
-   useEffect( () => { document.title = page.title; }, [] );
+   useEffect( () => { document.title = "Calendar Page"; }, [] );
 
    return (
       <div>Calendar</div>

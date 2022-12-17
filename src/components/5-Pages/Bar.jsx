@@ -2,11 +2,7 @@ import React, { useEffect } from 'react';
 
 export default function Bar ()
 {
-   const page = {
-      title: "reactjs Bar"
-   };
-
-   useEffect( () => { document.title = page.title; }, [] );
+   useEffect( () => { document.title = "Bar Page"; }, [] );
 
    return (
       <div>Bar</div>

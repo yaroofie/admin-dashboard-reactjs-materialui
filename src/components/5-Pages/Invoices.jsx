@@ -2,11 +2,10 @@ import React, { useEffect } from 'react';
 
 export default function Invoices ()
 {
-   const page = {
-      title: "reactjs Invoices"
-   };
-
-   useEffect( () => { document.title = page.title; }, [] );
+   useEffect( () =>
+   {
+      document.title = "Invoices Page";
+   }, [] );
 
    return (
       <div>Invoices</div>

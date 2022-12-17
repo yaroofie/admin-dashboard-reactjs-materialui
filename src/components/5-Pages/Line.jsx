@@ -2,11 +2,10 @@ import React, { useEffect } from 'react';
 
 export default function Line ()
 {
-   const page = {
-      title: "reactjs Line"
-   };
-
-   useEffect( () => { document.title = page.title; }, [] );
+   useEffect( () =>
+   {
+      document.title = "Line Page";
+   }, [] );
 
    return (
       <div>Line</div>

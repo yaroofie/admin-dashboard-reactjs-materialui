@@ -2,11 +2,10 @@ import React, { useEffect } from 'react';
 
 export default function Form ()
 {
-   const page = {
-      title: "reactjs Form"
-   };
-
-   useEffect( () => { document.title = page.title; }, [] );
+   useEffect( () =>
+   {
+      document.title = "Form Page";
+   }, [] );
 
    return (
       <div>Form</div>
